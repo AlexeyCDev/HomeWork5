@@ -13,13 +13,11 @@ int main()
     stringstream ss1(firstString), ss2(secondString);
     string word;
 
-// we get the words from the first line
     while (ss1 >> word)
     {
         wordsInFirstString.push_back(word);
     }
 
-// we get the words from the second line
     while (ss2 >> word)
     {
         wordsInSecondString.push_back(word);
